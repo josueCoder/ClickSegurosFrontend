@@ -1,0 +1,43 @@
+body{
+    padding: 12px;
+}
+
+.afiliacion-seguro-container{
+    margin: auto;
+}
+.beneficiario-container{
+    margin: auto;
+}
+.afiliacion-container{
+    margin: auto;
+}
+.eleccion-seguro{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+button{
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+border: 2px solid #9fc63b;
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+padding: 6px;
+}
+#dni{
+    width: 150px;
+}
+#nombre{
+    width: 500px;
+}
+#dnib{
+    width: 125px;
+}
+label{
+    color: #2e4a93;
+}
+.headers-section{
+    color: #9fc63b;
+    font-weight: bolder;
+}

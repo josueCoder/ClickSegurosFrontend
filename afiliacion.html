@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiliacion</title>
+    <link rel="stylesheet" href="./src/css/afiliacion.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+    
+    <section class="afiliacion-seguro-container">
+            <form action="POST">
+                <label for="Nombre">Asegurado:</label>
+                <input type="number" name="name" id="dni">
+                <input type="text" name="name" id="nombre">
+                <button>Buscar</button>
+                <div class="eleccion-seguro">
+                <label for="seguro">Elige tu seguro</label>
+                <select name="seguro" id="seguro">
+                    <option value="">Seguro de tarjetas</option>
+                    <option value="">Seguro universitario</option>
+                    <option value="">Seguro de accidentes</option>
+                    <option value="">Seguro de vida</option>
+                    <option value="">Seguro de viajes</option>
+                </select>
+                <label for="plan">Plan</label>
+                <select name="plan" id="plan">
+                    <option value="">Anual</option>
+                    <option value="">Semestral</option>
+                    <option value="">Mensual</option>
+                </select>
+                <label for="pago">Forma de pago</label>
+                <select name="pago" id="pago">
+                    <option value="">Transferencia bancaria</option>
+                    <option value="">Tarjeta Visa/MC/Amex</option>
+                    <option value="">Yape/Plin</option>
+                    <option value="">Pago Efectivo</option>
+                </select>
+                </div>
+            </form>
+    </section>
+    <section class="afiliacion-container">
+           <form action="">
+               <div class="container">
+                    <h4 class="headers-section">Datos de afiliación</h4>
+                    <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                        <th>Nombre</th>
+                        <th>DNI</th>
+                        <th>Fecha de nacimiento</th>
+                        <th>Seguro</th>
+                        <th>Plan</th>
+                        <th>Forma de pago</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Asegurado 1</td>
+                        <td>12345678</td>
+                        <td>01/01/1990</td>
+                        <td>Seguro de viajes</td>
+                        <td>Diario</td>
+                        <td>Pago Efectivo</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>    
+           </form>
+    </section>
+    <section class="beneficiario-container">
+        <form action="">
+            <label for="Nombre">Beneficiario(s):</label>
+            <input type="number" name="name" id="dnib">
+            <input type="text" name="name" id="nombre">
+                <div>
+                    <button type="submit">Añadir</button>
+                </div>
+                <div class="container">
+                    <h4 class="headers-section">Datos del beneficiario</h4>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                            <th>Nombre</th>
+                            <th>DNI</th>
+                            <th>Parentesco</th>
+                            <th>Porcentaje</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Beneficiario 1</td>
+                            <td>12345678</td>
+                            <td>hijo(a)</td>
+                            <td>100%</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div> 
+                    <section>
+                        <button type="submit">Grabar afiliación</button>
+                        <button type="submit">Cancelar</button>
+                    </section>           
+            </form>       
+        </section>  
+</body>
+</html>
